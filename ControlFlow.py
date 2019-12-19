@@ -14,7 +14,7 @@ guess = int(input('Enter a Guess: '))
 # keep asking user to guess my number until they answer it correct
 while guess != myNumber:
     guess = int(input("Enter a new number you got this: "))
-print('Nice job you guessed it')
+print('Nice job you guessed it\n')
 """
 # --------------------------------------------------------------------------------------------
 
