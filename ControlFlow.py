@@ -8,8 +8,9 @@ It then sums up the products
 """
 
 sum = 0
-
-for i in range(5):
+how_many_numbers = int(input('How many numbers would you like to sum up: '))
+print('')
+for i in range(how_many_numbers):
     enter_a_number = int(input('Enter a Number: '))
     sum = sum + enter_a_number
 
