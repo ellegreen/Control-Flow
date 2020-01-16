@@ -1,7 +1,6 @@
-"""
-Programmer: Elle Green
-Date: 12.16.19
-Program: Guess My Number
+#Programmer: Elle Green
+#Date: 12.16.19
+#Program: Guess My Number
 
 
 myNumber = 7
@@ -15,14 +14,14 @@ guess = int(input('Enter a Guess: '))
 while guess != myNumber:
     guess = int(input("Enter a new number you got this: "))
 print('Nice job you guessed it\n')
-"""
+
 # --------------------------------------------------------------------------------------------
 
-"""
-Programmer: Elle Green
-Date: 12.19.19
-Program: 1 through 10
-"""
+
+#Programmer: Elle Green
+#Date: 12.19.19
+#Program: 1 through 10
+
 
 x = 1
 
