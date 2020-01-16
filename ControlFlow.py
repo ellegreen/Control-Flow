@@ -2,7 +2,6 @@
 #Date: 12.16.19
 #Program: Guess My Number
 
-
 myNumber = 7
 
 print("\nGuess a number between 1 & 10\n")
@@ -16,12 +15,9 @@ while guess != myNumber:
 print('Nice job you guessed it\n')
 
 # --------------------------------------------------------------------------------------------
-
-
 #Programmer: Elle Green
 #Date: 12.19.19
 #Program: 1 through 10
-
 
 x = 1
 
@@ -31,3 +27,4 @@ x = 1
 while x <= 10:
     print(x)
     x+=1
+
