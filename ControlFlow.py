@@ -38,7 +38,7 @@ while x <= 10:
 
 
 sum = 0
-how_many_numbers = int(input('How many numbers would you like to sum up: '))
+how_many_numbers = int(input('\nHow many numbers would you like to sum up: '))
 print('')
 for i in range(how_many_numbers):
     enter_a_number = int(input('Enter a Number: '))
@@ -67,3 +67,30 @@ print('\nThis class is very fun, but I wish we had more than just every friday t
 print('I feel like if we worked on that more then kids would be more excited for the end of each week')
 print('We could make thursdays every other week and every fridays R&D days.This would give people more time to figure-')
 print('things out and make there program or app or whatever they are working on more complex and easier to use. ')
+print('things out and make there program or app or whatever they are working on more complex and easier to use.\n')
+
+
+# Date: 1-20-20
+# Program: Double For Loop
+
+for i in range(3):
+    print("Outer For Loop " + str(i))
+    for k in range(4):
+        print("\tInner for Loop " + str(k))
+
+
+"""
+Programmer: Elle Green
+Date: 1-23-20
+Program: While Loop nested inside of a For Loop
+"""
+print("\n**********************\n")
+for i in range(4):
+    print("For Loop " + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop" + str(x))
+        x = x-1
+        
+
+
