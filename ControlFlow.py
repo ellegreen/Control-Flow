@@ -29,6 +29,9 @@ def printTwoNumbers(x, y = 71):
     print("First Parameter(Number): " + str(x))
     print("Second Parameter(Number): " + str(y))
 
+# Print Sum
+def printSum(x, y):
+    print(x + y)
 
 
 # Call Functions here
@@ -37,5 +40,6 @@ def printTwoNumbers(x, y = 71):
 # print(x)
 # printNumber(28)
 # printNumber(24)
-printTwoNumbers(23, 78)
-printTwoNumbers(45)
+# printTwoNumbers(23, 78)
+# printTwoNumbers(45)
+printSum(45, 56)
