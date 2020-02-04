@@ -1,20 +1,29 @@
+# Programmer Elle Green
 # Date 2-3-20
-# Greeting Function
 
 # Declare Global Variables
-name = input('\nWhat is your name: ')
+# name = input('\nWhat is your name: ')
 x = 15
 
 # Create Functions here
+
+# Greeting Function
 def greeting():
     print('Hi there ' + name)
     print(x)
 
+# Functions and Local Variable x
 def printSomething():
     x = 3
     print(x)
 
+# Functions and Parameters
+def printNumber(age):  # function name = printNumber, parameter = age
+    print(age)
+
 # Call Functions here
-greeting()
-printSomething()
-print(x)
+# greeting()
+# printSomething()
+# print(x)
+printNumber(28)
+printNumber(24)
