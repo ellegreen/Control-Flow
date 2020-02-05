@@ -2,7 +2,7 @@
 # Date 2-3-20
 
 # Declare Global Variables
-# name = input('\nWhat is your name: ')
+name = input('\nWhat is your name: ')
 x = 15
 
 
@@ -40,12 +40,22 @@ def printMultiTimes(string, times):
 
 
 # Call Functions here
-# greeting()
-# printSomething()
-# print(x)
-# printNumber(28)
-# printNumber(24)
-# printTwoNumbers(23, 78)
-# printTwoNumbers(45)
-# printSum(45, 56)
-# printMultiTimes("I love computer science", 7)
+print("\n******Greetings Function*******\n")
+greeting()
+
+print("\n******Print Something Function*******\n")
+printSomething()
+
+print("\n******Print Number Function*******\n")
+printNumber(28)
+printNumber(24)
+
+print("\n******Print 2 Numbers Function*******\n")
+printTwoNumbers(23, 78)
+printTwoNumbers(45)
+
+print("\n******Print Sum Function*******\n")
+printSum(45, 56)
+
+print("\n******Print Multiple Times Function*******\n")
+printMultiTimes("I love computer science", 7)
